@@ -1,0 +1,12 @@
+{
+    "name": "DocuSign Summarizer",
+    "description": "Summarize a document on docusign",
+    "version": "1.1",
+    "manifest_version": 3,
+    "permissions": [
+      "tabs"
+    ],
+    "action": {
+      "default_popup": "ds_summarizer.html"
+    }
+  }
