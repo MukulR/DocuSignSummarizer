@@ -4,8 +4,36 @@
 }
 
 body{
-	min-width: 256px;
+	min-width: 512px;
 	/*border: 300px solid green;*/
 	/*box-shadow: 10 10 10 10;*/
 	border-radius: 10px;
+}
+
+.button-custom{
+	height:64px;
+	width:64px;
+	margin:6px;
+	display:inline-block;
+	vertical-align: top;
+	background-color:#646464;
+	border-radius:12px;
+}
+
+.button-custom:hover{
+	background-color:#808080;
+}
+
+.button-custom:active{
+	background-color:#323232;
+}
+
+.container{
+	border:2px black;
+	color:#000006;
+	background-color:#F0F0F0;
+	user-select:none;
+	text-align:center;
+	align:center;
+	width:100%;
 }
