@@ -8,5 +8,8 @@
     ],
     "action": {
       "default_popup": "ds_summarizer.html"
-    }
+    },
+	"icons": {
+		"256": "Favicon.png"
+	}
   }

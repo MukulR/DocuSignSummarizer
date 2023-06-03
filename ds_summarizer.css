@@ -7,4 +7,5 @@ body{
 	min-width: 256px;
 	/*border: 300px solid green;*/
 	/*box-shadow: 10 10 10 10;*/
+	border-radius: 10px;
 }
