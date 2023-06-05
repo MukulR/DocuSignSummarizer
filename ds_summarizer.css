@@ -16,16 +16,16 @@ body{
 	margin:6px;
 	display:inline-block;
 	vertical-align: top;
-	background-color:#646464;
+	background-color:#B0B0B0;
 	border-radius:12px;
 }
 
 .button-custom:hover{
-	background-color:#808080;
+	background-color:#C0C0C0;
 }
 
 .button-custom:active{
-	background-color:#323232;
+	background-color:#A0A0A0;
 }
 
 .container{
