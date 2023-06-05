@@ -7,3 +7,7 @@ chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
 		// 1) Parse the text out of the PDF document
 	}
 });
+
+document.querySelector('#button-refresh').onmousedown = function () {
+    location.reload();
+};
