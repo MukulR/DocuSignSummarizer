@@ -1,15 +1,23 @@
 {
-    "name": "DocuSign Summarizer",
-    "description": "Summarize a document on docusign",
-    "version": "1.1",
-    "manifest_version": 3,
-    "permissions": [
-      "tabs"
-    ],
-    "action": {
-      "default_popup": "ds_summarizer.html"
-    },
-	"icons": {
-		"256": "Favicon.png"
-	}
-  }
+  "name": "DocuSign Summarizer",
+  "description": "Summarize a document on docusign",
+  "version": "1.1",
+  "manifest_version": 3,
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": ["*://*/", "file://*"],
+  "action": {
+    "default_popup": "ds_summarizer.html"
+  },
+  "icons": {
+      "256": "Favicon.png"
+  },
+  "web_accessible_resources": [
+      {
+          "resources": ["https://mozilla.github.io/pdf.js/build/pdf.js"],
+          "matches": ["https://mozilla.github.io/*"]
+      }
+  ]
+}

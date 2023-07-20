@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="ds_summarizer.css">
-  <title>DocuSign Summarizer</title>
-</head>
-<body>
-	<div id="header" style="background-color:#404040;color:white;min-width:100%;min-height:32px;">
-		<p style="font-size:16px;line-height:32px;text-align:center;height:100%;">LLM Legal Document Summarizer</p>
-	</div>
-	<div id="content">
-		<p id="content-display" style="margin:8px; font-size:16px">
-			The current page is not a PDF document. Please navigate to a PDF document in your browser, or a page that has a PDf document embedded in it.
-		</p>
-	</div>
-	<table class="container" align:center>
-			<tr>
-				<td><div class="button-custom" id="button-refresh"><img height=36 width=36 src="Refresh.png" style="position: relative;top: 50%;transform: translateY(-50%);"></div></td>
-				<td><div class="button-custom" id="button-settings"></div></td>
-				<td><div class="button-custom" id="button-aboutabout"></div></td>
-				<td><div class="button-custom" id="button-save"></div></td>
-			</tr>
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="ds_summarizer.css">
+	<title>DocuSign Summarizer</title>
+	</head>
+	<body>
+		<div id="header" style="background-color:#404040;color:white;min-width:100%;min-height:32px;">
+			<p style="font-size:16px;line-height:32px;text-align:center;height:100%;">LLM Legal Document Summarizer</p>
+		</div>
+		<div id="content">
+			<p id="content-display" style="margin:8px; font-size:16px">
+				The current page is not a PDF document. Please navigate to a PDF document in your browser, or a page that has a PDf document embedded in it.
+			</p>
+		</div>
+		<table class="container" align:center>
+				<tr>
+					<td><div class="button-custom" id="button-refresh"><img height=36 width=36 src="Refresh.png" style="position: relative;top: 50%;transform: translateY(-50%);"></div></td>
+					<td><div class="button-custom" id="button-settings"></div></td>
+					<td><div class="button-custom" id="button-aboutabout"></div></td>
+					<td><div class="button-custom" id="button-save"></div></td>
+				</tr>
 
-		</table>
-</body>
-<script src="ds_summarizer.js"></script>
+			</table>
+	</body>
+	<script src="pdf.js"></script>
+	<script src="ds_summarizer.js"></script>
+	
 </html>
